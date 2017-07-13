@@ -1,5 +1,5 @@
 {
-    "name": "phpwheelframework/logger",
+    "name": "wheel/logger",
     "description": "PHP application simple logging library.",
     "keywords": ["component"],
     "homepage": "https://www.phpwheelframework.com",
@@ -18,10 +18,10 @@
     },
     "autoload": {
         "psr-4": { 
-            "Wheel\\Logger\\": "" 
+            "Wheel\\Logger\\": "src/Wheel/Logger" 
         },
         "exclude-from-classmap": [
-            "/Tests/"
+            "/tests/"
         ]
     }
 }
